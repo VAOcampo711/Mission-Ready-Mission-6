@@ -1,0 +1,28 @@
+.navbar-selections {
+    min-width: 1804px;
+    max-width: 1804px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 48px;
+}
+
+.navbar-selection-list {
+    /* border: 2px solid green; */
+    display: flex;
+    height: 48px;
+    margin: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #C21D3E;
+    
+}
+
+.navbar-list {
+    /* border: 2px solid red; */
+    color: #fff;
+    font-size: 30px;
+    font-family: 'open sans';
+    cursor: pointer;
+}

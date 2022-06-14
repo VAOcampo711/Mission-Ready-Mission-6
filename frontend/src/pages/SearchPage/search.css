@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+}
+
+.body {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+.divider{
+    border: 2px solid #c21d3c;
+    height: 44px;
+    width: 1800px;
+    background-color: #c21d3c;
+    margin-left: 150px;
+}
+
+input {
+    text-align: center;
+    padding: 5px;
+}
+
+.toptext{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0 20px 0;
+    color: #C21D3E;
+}
+
+.search {
+    display: inline-block;
+    padding: 10px 10px 0 10px;
+    margin: 150px 0 0 0;
+    width: 225px;
+    background-color: #c21d3e;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.text {
+    color: white;
+    padding: 10px 0 5px 0;
+    font-size: 24px;
+}
+
+.home-page-image {
+    text-align: center;
+}
+
+.dropdown {
+    width: 150px;
+    text-align: center;
+}
+
+.s {
+    cursor: pointer;
+}
+
+#newsearch {
+    cursor: pointer;
+    width: fit-content;
+    font-size: 16px;
+
+}
+
+#newsearch:hover {
+    background-color: black;
+    color: white;
+}
+
+#searchb {
+    cursor: pointer;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 40px 0 10px 0;
+    font-size: 24px;
+}
+
+#searchb:hover {
+    background-color: white;
+    color: black;
+}
+
+#advancedsearch {
+    cursor: pointer;
+    padding: 0px;
+}
+
+#advancedsearch:hover {
+    background-color: black;
+    color: white;
+}
+
+#advanceddiv {
+    margin-top: 10px;
+    color: white;
+}
+
+.list {
+    display: inline-block;
+    margin: 20px 0 0 350px;
+}
+
+.viewbutton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.showlist {
+    text-align:justify;
+    justify-content: space-between;
+}
+
+.results {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding: 10px;
+    /*display: none;*/
+}
+
+.results > div {
+    background-color: #c21d3e;
+    border: 1px solid black;
+    font-size: 11px;
+    max-width: 300px;
+}
+
+.resulthead {
+    color:black;
+    text-align: left;
+    font-size: 24px;
+}
+
+.houseimg {
+    width: 301px;
+}
+
+.resultp {
+    padding: 10px 10px 5px 7.5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+#searchres {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    float: right;
+    margin-right: 10px;
+}
+
+#searchres:hover {
+    background-color: white;
+    color: black;
+}
+
+i {
+    color: black;
+}
+
+.resultbox {
+    padding-bottom: 5px;
+}
+
+.resp {
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.resp1 {
+    background-color: white;
+    float: left;
+    margin: 10px 0 0 10px;
+    position: absolute;
+    padding: 2.5px;
+}
+
+.resultbb {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
